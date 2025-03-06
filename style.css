@@ -24,7 +24,7 @@
 /* Lines of the Toggler */
 .toggler-icon{
     width: 35px;
-    height: 3px;
+    height: 1.5px;
     background-color: #05C7F2;
     display: block;
     transition: all 0.3s;
@@ -37,7 +37,7 @@
 
 /* State when navbar is opened (START) */
 .navbar-toggler .top-bar {
-    transform: rotate(-45deg) translate(-9px,9px);
+    transform: rotate(-45deg) translate(-8px,8px);
 }
 
 .navbar-toggler .middle-bar {
@@ -46,7 +46,7 @@
 }
 
 .navbar-toggler .bottom-bar {
-    transform: rotate(45deg) translate(-4px,-5px);
+    transform: rotate(45deg) translate(-4px,-4px);
 }
 /* State when navbar is opened (END) */
 
@@ -100,6 +100,10 @@
     margin-top: 125px;
 }
 
+.cpt{
+    padding-top: 20px;
+}
+
 /* Custom Responsive Starts*/
 @media only screen and (max-width: 991px){
 .nav-link.contxt{
@@ -111,6 +115,23 @@
     padding-bottom: 0px !important;
 }
 
+.card-header{
+    background-color: #606E7F;
+}
+
+.colr{
+    color: white;
+}
+
+.colr:hover{
+    color: white;
+}
+
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
 @media screen and (max-width: 575px){
     .navbar.navbar-expand-lg{
         padding-left: 12px;
@@ -120,6 +141,7 @@
     .txt{
         padding-left: 12px;
         padding-right: 12px;
+        margin-bottom: 0px;
     }
 
     .d-block{
@@ -131,4 +153,38 @@
     .footer-text{
         font-size: 12px !important;
     }
+
+    .pic{
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 24px;
+    }
+
+    .cpt{
+        margin-bottom: 24px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .pb{
+        padding-bottom: 0px !important;
+    }
+
+    .btn-end{
+        text-align: center !important;
+        margin-top: 24px;
+    }
+
+    .cta-txt{
+        text-align: center;
+    }
+}
+
+.navbar{
+    background-color: white !important;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+
+.crd-n{
+    border: 0px;
 }
