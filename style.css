@@ -85,7 +85,7 @@
 }
 
 .nav-link {
-    color: #606E7F !important;
+    color: #92a5bc !important;
 }
 
 .nav-link:hover {
@@ -116,15 +116,15 @@
 }
 
 .card-header{
-    background-color: #606E7F;
+    background-color: #f8f9fa;
 }
 
 .colr{
-    color: white;
+    color: black;
 }
 
 .colr:hover{
-    color: white;
+    color: black;
 }
 
 .btn-check:focus+.btn, .btn:focus {
@@ -173,10 +173,6 @@
     .btn-end{
         text-align: center !important;
         margin-top: 24px;
-    }
-
-    .cta-txt{
-        text-align: center;
     }
 }
 
